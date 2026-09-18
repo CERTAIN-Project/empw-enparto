@@ -1,0 +1,12 @@
+{
+  "organization_id": 1,
+  "algo": "EqualWaterfillingOptAlgo",
+  "algo_params": {
+    "__name__": "EqualWaterfillingOptAlgo"
+  },
+  "created_at": "2026-01-15T15:19:23.617869+00:00",
+  "row_counts": {
+    "tf_schedule": 255823,
+    "simulated_energy": 255823
+  }
+}

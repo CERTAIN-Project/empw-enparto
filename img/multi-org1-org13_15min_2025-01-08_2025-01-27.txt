@@ -1,0 +1,47 @@
+====================
+1
+
+Optimized Sums:
+	Consumers:
+		opt_meas_cons (c*): 32351.061 [base wt_meas_cons: 94382.230, difference: 62031.169]
+		opt_comm_cov (cc*): 31907.701 [base comm_cov: 31906.240, difference: -1.461]
+		opt_comm_pot (cp*): 31930.848 [base comm_pot: 33425.426, difference: 1494.578]
+	-> opt_Restnetzbezug (c* - cc*): 444.821
+	-> real Restnetzbezug: 62475.990
+	-> real Restnetzbezug + opt_comm_cov = 62475.990 + 31907.701 = 94382.230
+	Generators:
+		opt_wt_meas_gen (g*): 31930.848 [base wt_meas_gen: 33427.087, difference: 1496.239]
+		opt_wt_surp_gen (s*): 23.147 [base wt_surp_gen: 1519.256, difference: 1496.109]
+		opt_cons_gen (cg*): 31907.701 [base cons_gen: 31907.831, difference: 0.130]
+====================
+
+====================
+13
+
+Optimized Sums:
+	Consumers:
+		opt_meas_cons (c*): 89038.814 [base wt_meas_cons: 119914.570, difference: 30875.756]
+		opt_comm_cov (cc*): 88606.606 [base comm_cov: 88607.398, difference: 0.792]
+		opt_comm_pot (cp*): 88853.175 [base comm_pot: 103117.530, difference: 14264.355]
+	-> opt_Restnetzbezug (c* - cc*): 431.416
+	-> real Restnetzbezug: 31307.172
+	-> real Restnetzbezug + opt_comm_cov = 31307.172 + 88606.606 = 119914.570
+	Generators:
+		opt_wt_meas_gen (g*): 88853.175 [base wt_meas_gen: 103117.064, difference: 14263.889]
+		opt_wt_surp_gen (s*): 246.569 [base wt_surp_gen: 14511.223, difference: 14264.654]
+		opt_cons_gen (cg*): 88606.606 [base cons_gen: 88605.841, difference: -0.765]
+====================
+
+====================
+x
+
+Original (Baseline) Sums:
+	wt_meas_cons (c): 92906.925
+	comm_cov (cc): 9651.624
+	-> Restnetzbezug (c - cc): 83255.301
+	comm_pot (cp): 15760.128
+	wt_meas_gen (g): 15760.129
+	wt_surp_gen (s): 6108.505
+	cons_gen (cg): 9651.624
+====================
+

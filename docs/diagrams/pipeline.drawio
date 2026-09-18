@@ -1,0 +1,134 @@
+<mxfile host="65bd71144e">
+    <diagram id="bRn5aoxafGbSqafGoWeF" name="Page-1">
+        <mxGraphModel dx="2982" dy="1186" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="18" value="" style="edgeStyle=none;html=1;dashed=1;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Extract energy data" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="edgeStyle=none;html=1;dashed=1;" parent="1" source="3" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Transform energy data" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="369" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="4" target="24" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="edgeStyle=none;html=1;dashed=1;" parent="1" source="4" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Calculate Participation Factor Schedule (PFS)" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="469" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="edgeStyle=none;html=1;dashed=1;" parent="1" source="5" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="edgeStyle=none;html=1;dashed=1;" parent="1" source="5" target="37" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Apply PFS to simulate energy data" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="569" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="" style="edgeStyle=none;html=1;dashed=1;" parent="1" source="6" target="40" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="11" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="100" y="330"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="12" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="100" y="439"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="49" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint y="499" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="47" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint y="290" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" style="html=1;entryX=0.008;entryY=0.325;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="2" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="html=1;entryX=0.027;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="3" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="Input Params" style="swimlane;whiteSpace=wrap;html=1;startSize=30;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="-90" y="210" width="110" height="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;organization_id&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;timehorizon&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="32" vertex="1">
+                    <mxGeometry x="10" y="50" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;params for data cleaning&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="32" vertex="1">
+                    <mxGeometry x="15" y="159" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Optimization Algorithm&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="32" vertex="1">
+                    <mxGeometry x="15" y="259" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Evaluation Criterea&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="32" vertex="1">
+                    <mxGeometry x="10" y="455" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Output Artifacts" style="swimlane;whiteSpace=wrap;html=1;startSize=30;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="210" width="120" height="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="raw energy data" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" parent="33" vertex="1">
+                    <mxGeometry x="20" y="50" width="70" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="cleaned energy data" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" parent="33" vertex="1">
+                    <mxGeometry x="20" y="149" width="70" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="participation factor schedule optimizied for XY" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" parent="33" vertex="1">
+                    <mxGeometry x="20" y="247" width="90" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="optimized energy data" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" parent="33" vertex="1">
+                    <mxGeometry x="30" y="344" width="70" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="HTML Dashboard(s) of Evaluations and Comparisons" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;" parent="33" vertex="1">
+                    <mxGeometry x="20" y="440" width="95" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Pipeline" style="swimlane;whiteSpace=wrap;html=1;startSize=30;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="210" width="170" height="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Analyse different algorithms for PFS calculations" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="35" vertex="1">
+                    <mxGeometry x="20" y="455" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="37" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="100" y="639"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="24" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="100" y="539"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="48" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint y="395.42857142857156" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="50" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

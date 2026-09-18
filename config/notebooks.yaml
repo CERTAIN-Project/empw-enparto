@@ -1,0 +1,3 @@
+PATH_TO_LOCAL_DATA : "../../local_data/"
+WHOLE_EEG_SIM : "raw/whole_eeg_sums-{org_id}.csv"
+SINGLE_MPS_OF_EEG : "raw/all_mps_orgid-{org_id}.csv"

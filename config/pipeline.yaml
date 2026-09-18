@@ -1,0 +1,8 @@
+consumer_eegs:
+  "1":
+    opt_algo: EqualWaterfillingOptAlgo
+    force_reload: False
+  "13":
+    opt_algo: EqualWaterfillingOptAlgo
+    force_reload: False
+  
